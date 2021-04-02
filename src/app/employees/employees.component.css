@@ -6,6 +6,7 @@ h2 {
     list-style-type: none;
     padding: 0;
     width: 35em;
+
 }
 .employees li {
     cursor: pointer;
@@ -13,7 +14,7 @@ h2 {
     left: 0;
     background-color: #EEE;
     margin: .5em;
-    padding: .3em 0;
+    /* padding: .3em 0; */
     height: 1.6em;
     border-radius: 4px;
 }
@@ -40,9 +41,9 @@ h2 {
     background-color:#30afb5;
     line-height: 1em;
     position: relative;
-    left: -1px;
-    top: -4px;
-    height: 1.8em;
+    /* left: -1px; */
+    /* top: -4px; */
+    height: 2em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
 }
