@@ -8,13 +8,15 @@ import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeesComponent,
     HomepageComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

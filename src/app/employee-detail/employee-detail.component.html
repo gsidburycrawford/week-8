@@ -1,1 +1,10 @@
-<p>employee-detail works!</p>
+<div *ngIf="employee">
+    <h2>{{employee.name}} Details</h2>
+    <div><span>Id:</span>{{employee.id}}</div>
+    <div>
+        <label>Name:
+            <input [(ngModel)]="employee.phone" placeholder="phone"/>
+        </label>
+    </div>
+
+</div>
