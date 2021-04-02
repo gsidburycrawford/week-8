@@ -1,0 +1,21 @@
+<h2>Employees</h2>
+<ul class="employees">
+    <li *ngFor="let employee of employees" (click)="onSelect(employee)">
+        <span class="badge">{{employee.id}}</span>
+        {{employee.name}} | 
+        <i>{{employee.position}}</i> |
+        {{employee.phone}}
+    </li>
+</ul>
+
+<div class="dropDown" *ngIf="selectedEmployee">
+    
+    <div><h2>{{selectedEmployee.name}} Details</h2></div>
+    <div><h2><span>Id:</span>{{selectedEmployee.id}}</h2></div>
+    <div>
+      
+        <label><h3><span>Phone:</span><input [(ngModel)]="selectedEmployee.phone" placeholder="phone"/></h3>
+      </label>
+    </div>
+  
+</div>
