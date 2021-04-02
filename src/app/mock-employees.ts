@@ -6,7 +6,7 @@ export const EMPLOYEES: Employee[] = [
 { id: 2, name: 'David Wells', position: 'Personal Banker 1', phone:'704-998-8118'},
 { id: 3, name: 'Franklyn Reyes Varela', position: 'Teller', phone:'704-249-0232'},
 { id: 4, name: 'Jharna Whitehurst', position: 'Teller', phone:'252-414-5344'},
-{ id: 5, name: 'Lennart Bendfeldt', position: 'Branch Manager', phone:'704-900-4499'},
+{ id: 5, name: 'Lennart Bendfeldt', position: 'Branch Manager aka "The Boss"', phone:'704-900-4499'},
 { id: 6, name: 'Marquis Blocker', position: 'Teller', phone:'704-904-5784'},
 { id: 7, name: 'Shanta Dutta', position: 'Teller', phone:'704-492-5969'},
 { id: 8, name: 'Sravanthi Rajavaram', position: 'Personal Banker 2', phone:'913-832-7973'},
