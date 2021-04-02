@@ -9,6 +9,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MessagesComponent } from './messages/messages.component';
     EmployeesComponent,
     HomepageComponent,
     EmployeeDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
