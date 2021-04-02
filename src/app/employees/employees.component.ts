@@ -32,7 +32,7 @@ export class EmployeesComponent implements OnInit {
   onSelect (employee: Employee): void {
     this.selectedEmployee = employee;
     this.messageService
-    .add(`Employees Phone: ${employee.name} | ${employee.phone} `);
+    .add(`${employee.name} | ${employee.phone} `);
   }
 
 }
